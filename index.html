@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Giphy API Buttons</title>
+    <script src="javascript.js"></script>
+    <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+</head>
+<body>
+
+<h1 class = "animated infinte bounce"> Giphy API Buttons </h1>
+
+    <form id="form1">
+    Add Button: <input id="number1" type="string" size = "100">
+    </form>
+    <button id = "submitButton" onclick="addButton()" > Add Button</button>
+    <br><br>
+
+    <div id = "buttons">
+        <script type="text/javascript">
+          document.write(showButtonArray());
+        </script>
+    </div>
+    <div id = "imagesArea" class = "imagesArea">
+        <br><br>
+        Images will show here. 
+    </div>
+
+</body>
+</html>
+
